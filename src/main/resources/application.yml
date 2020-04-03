@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  rabbitmq:
+    host: 112.74.59.132
+    port: 5672
+    virtual-host: /test
+    username:  test
+    password:  test
+    publisher-confirms: true #对异步消息回调需要设置为true
